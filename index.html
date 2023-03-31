@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Quizlet Clone</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="/assets/Quizlet-Logo.png">
+        </div>
+        <div class="nav-options">
+            <select class="subject-list">
+                <option>Subjects</option>
+            </select>
+            <a href="">Expert Solutions</a>
+        </div>
+        <div class="searchbar-area">
+            <img src="./assets/search-icon.png">
+            <input type="text" placeholder="Study sets, textbooks, questions">
+        </div>
+        <div class="button-area">
+            <button class="create">+</button>
+            <a class="log-in" href="">Log in</a>
+            <button class="sign-up">Sign up</button>
+        </div>
+    </div>
+    <div class="ad-content-app">
+        <div class="advertising-aside">
+            <div class="ad-container">
+                <div class="ad-functions">
+                    <img class="ad-triangle" src="./assets/ad-play.png">
+                    <p class="close-ad">X</p>
+                </div>
+                <div class="ad-content">
+                    <iframe class="ad-top" src="https://www.youtube.com/embed/6mx0t0ex7y8?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="ad-container2">
+                <div class="ad-functions">
+                    <img class="ad-triangle" src="./assets/ad-play.png">
+                    <p class="close-ads">X</p>
+                </div>
+                <div class="ad-content">
+                    <img class="ad-bottom" src="./assets/ad-top.png">
+                </div>
+            </div>
+        </div>
+        <div class="app">
+            <div class="banner-area">
+                <div class="name-info">
+                    <h2 class="set-name">Flashcard Set Name</h2>
+                    <div class="reviews">
+                        <p class="review-star">★</p>
+                        <p><span class="review-1">5</span>.<span class="review-2">0</span></p>
+                        <p>(<span class="review-1">3 </span><span class="review-2">reviews</span>)</p>
+                    </div>
+                </div>
+                <div class="services">
+                    <ul class="function-list">
+                        <li><a href=""></a><img src="./assets/squares.png">Flashcards</li>
+                        <li><a href=""></a><img src="./assets/learn.png">Learn</li>
+                        <li><a href=""></a><img class="test" src="./assets/test.png">Test</li>
+                        <li><a href=""></a><img src="./assets/match.png">Match</li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="flashcard-area">
+                <div class="flashcard-front">
+                    <div class="card-top">
+                        <p class="def">Definition</p>
+                        <p class="card-number"><span class="flashcard-number">1</span>/<span class="set-total">10</span></p>
+                        <p class ="star">★</p>
+                    </div>
+                    <div class="card-term"><p>Term</p></div>
+                    <div class="card-buttons">
+                        <button class="left-arrow"><</button>
+                        <button class="right-arrow">></button>
+                    </div>
+                </div>
+                <div class="flashcard-back">
+                    <div class="card-top">
+                        <p class="def">Definition</p>
+                        <p class="card-number"><span class="flashcard-number">1</span>/<span class="set-total">10</span></p>
+                        <p class="star2">★</p>
+                    </div>
+                    <div class="card-definition"><p>Definition</p></div>
+                    <div class="card-buttons">
+                        <button class="left-arrow"><</button>
+                        <button class="right-arrow">></button>
+                    </div>
+                </div>
+            </div>
+            <div class="flashcard-functions">
+                <div class="card-control">
+                    <img src="./assets/play.png">
+                    <img src="./assets/shuffle.png">
+                </div>
+                <img class="fullscreen" src="./assets/fullscreen.png">
+            </div>
+            <hr class="center-line">
+            <div class="card-author">
+                <img src="./assets/quizlet-logo-letter.png">
+                <div class="profile-detail">
+                    <p>Created By</p>
+                    <span>Username</span>
+                </div>
+                <div class="site-function">
+                    <img class="share" src="./assets/share.png">
+                    <img class="problem" src="./assets/problem.png">
+                </div>
+            </div>
+            <div class="flashcard-set">
+                <h2 class="set-header">Terms in this set (<span>10</span>)</h2>
+                <div class="term-list">
+                    <ul class="card-list">
+                        <li class="new-card"> 
+                            <div class="term-heading">
+                                <input type="text" class="new-term" placeholder="New Term">
+                            </div>
+                            <div class="definiton-area">
+                                <input type="text" class="new-definition" placeholder="New Defintion">
+                            </div>
+                            <button class="add">Add</button>
+                        </li>
+                       <li class="terms"></li>
+                    </ul>
+                    <button class="save-list-btn">Save List</button>
+                </div>
+            </div>
+            <div class="set-area">
+                <h3>Sets found in the same folder</h3>
+                <div class="sets">
+                    <div class="top-set">
+                        <div class="set">
+                            <p><span>Folder Name</span></p>
+                            <div class="set-info">
+                                <div class="terms-img">
+                                    <p><span>100</span> terms</p>
+                                <div class="img-set">
+                                    <img class="" src="">
+                                    <p>images</p>
+                                </div>
+                            </div>
+                            <div class="author-info">
+                                <img class="author-pro" src="./assets/quizlet-logo-letter.png">
+                                <p><span>Username</span></p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="set">
+                            <p><span>Folder Name</span></p>
+                            <div class="set-info">
+                                <div class="terms-img">
+                                    <p><span>100</span> terms</p>
+                                <div class="img-set">
+                                    <img class="" src="">
+                                    <p>images</p>
+                                </div>
+                            </div>
+                            <div class="author-info">
+                                <img class="author-pro" src="./assets/quizlet-logo-letter.png">
+                                <p><span>Username</span></p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="bottom-set">
+                    <div class="set">
+                        <p><span>Folder Name</span></p>
+                        <div class="set-info">
+                            <div class="terms-img">
+                                <p><span>100</span> terms</p>
+                            <div class="img-set">
+                                <img class="" src="">
+                                <p>images</p>
+                            </div>
+                        </div>
+                            <div class="author-info">
+                                <img class="author-pro" src="./assets/quizlet-logo-letter.png">
+                                <p><span>Username</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="set">
+                        <p><span>Folder Name</span></p>
+                        <div class="set-info">
+                            <div class="terms-img">
+                                <p><span>100</span> terms</p>
+                            <div class="img-set">
+                                <img class="" src="">
+                                <p>images</p>
+                            </div>
+                        </div>
+                            <div class="author-info">
+                                <img class="author-pro" src="./assets/quizlet-logo-letter.png">
+                                <p><span>Username</span></p>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                     
+                </div>
+            </div>
+            <div class="arrow-area">
+                <button class="left-icon"><img src="./assets/left-arrow.png"></button>
+                <p><span>1</span>/<span>4</span></p>
+                <button class="right-icon"><img src="./assets/right-arrow.png"></button>
+            </div>
+            <div class="ad-banner">
+                <div class="ad">
+                    <div class="banner-ad-content">
+                    </div>
+                    <div class="banner-ad-functions">
+                        <img src="./assets/ad-play.png">
+                        <p class="close-banner-ad">X</p>
+                    </div>
+
+                </div>
+            </div>
+            <footer> 
+                <div class="other-resources">
+                    <ul class="category-list">
+                        <li class="category">
+                            <h2>About us</h2>
+                            <ul class="link-list">
+                                <li><a href="./about.html" target="_blank">About Quizlet</a></li>
+                                <li><a href=""target="_blank">How Quizlet works</a></li>
+                                <li><a href=""target="_blank">Careers</a></li>
+                                <li><a href=""target="_blank">Advertise with us</a></li>
+                                <li><a href=""target="_blank">News</a></li>
+                                <li><a href=""target="_blank">Get the app</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <h2>For students</h2>
+                            <ul class="link-list">
+                                <li><a href="" target="_blank">Flashcards</a></li>
+                                <li><a href="" target="_blank">Learn</a></li>
+                                <li><a href="" target="_blank">Solutions</a></li>
+                                <li><a href="" target="_blank">Modern Learning Lab</a></li>
+                                <li><a href="" target="_blank">Quizlet Plus</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <h2>For teachers</h2>
+                            <ul class="link-list">
+                                <li><a href="" target="_blank">Live</a></li>
+                                <li><a href="" target="_blank">Checkpoint</a></li>
+                                <li><a href="" target="_blank">Blog</a></li>
+                                <li><a href="" target="_blank">Be the Change</a></li>
+                                <li><a href="" target="_blank">Quizlet Plus for teachers</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <h2>Resources</h2>
+                            <ul class="link-list">
+                                <li><a href="" target="_blank">Help center</a></li>
+                                <li><a href="" target="_blank">Sign up</a></li>
+                                <li><a href="" target="_blank">Honor code</a></li>
+                                <li><a href="" target="_blank">Community guidelines</a></li>
+                                <li class="priv-shield"><a href="" target="_blank">Privacy<img class="shield-img" src="./assets/shield.png" alt="shield"></a></li>
+                                <li><a href="" target="_blank">Terms</a></li>
+                                <li><a href="" target="_blank">Ad and Cookie Policy</a></li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <h2>Language</h2>
+                            <select>
+                                <option>English (USA)</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+               <div class="img-icon">
+                <div class="copyright-social">
+                    <div class="socials">
+                        <ul class="footer-social-list">
+                            <li><a href="" target="_blank"><img src="/assets/tiktok-icon.png" alt="Tiktok Icon"></a></li>
+                            <li><a href="" target="_blank"><img src="/assets/twitter-icon.png" alt="Twitter Icon"></a></li>
+                            <li><a href="" target="_blank"><img src="/assets/facebook-icon.png" alt="Facebook Icon"></a></li>
+                            <li><a href="" target="_blank"><img src="/assets/instagram-icon.png" alt="Instagram Icon"></a></li>
+                            <li><a href="" target="_blank"><img src="/assets/youtube-icon.png" alt="Youtube Icon"></a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        <img src="./assets/copyright-icon.png">
+                        <p>2023 Quizlet, Inc</p>
+                    </div>
+                </div>
+                <div class="coppa">
+                    <img src="./assets/coppa.svg">
+                </div>
+               </div>
+            </footer>
+        </div>
+    </div>
+   <script src="/app.js"></script>
+</body>
+</html>

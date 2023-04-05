@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: hurme_no2-webfont,-apple-system,BlinkMacSystemFont,sans-serif;
+    font-family: 'BlinkMacSystemFont','sans-serif';
 }
 body{
     margin: 0;
@@ -1572,4 +1572,54 @@ footer{
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+}
+/*Careers*/
+.careers-app{
+    margin-top: 70px;
+    background-color: white;
+}
+.career-banner-area{
+    width:100%;
+    display: flex;
+    padding-bottom: 10%;
+    background-color: #dbdfff;
+}
+.career-text-btn{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.career-banner-text{
+    color:#2e3856;
+}
+.career-banner-text h3{
+ font-size: 2.5rem;
+ width: 85%;
+ font-weight: 900;
+ padding-bottom: 10%;
+}
+.career-banner-text p{
+    font-size: 1.60rem;
+    width: 85%;
+    padding-bottom: 10%;
+}
+.career-btn{
+    color: white;
+    background-color: #4255ff;
+    border: none;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.career-banner-area img{
+    width: 36%;
+    margin-top: 2%;
+    margin-left: .5%;
 }

@@ -1623,3 +1623,59 @@ footer{
     margin-top: 2%;
     margin-left: .5%;
 }
+.great-workplace{
+    display: flex;
+    width: 100%;
+    padding-bottom: 10%;
+    padding-left: 12%;
+    padding-top: 4%;
+    color: #2e3856;
+}
+.great-workplace img{
+    width: 40%;
+}
+.workplace-text-btn{
+    width: 38%;
+    margin-top: 4.5%;
+    margin-left: 5%;
+}
+.workplace-text h3{
+    font-size: 2.25rem;
+    padding-bottom: 8%;
+    font-weight: 800;
+}
+.workplace-text p{
+    font-size: 1.60rem;
+    padding-bottom: 8%;
+    line-height: 2rem;
+    width: 95%;
+}
+.workplace-btn{
+    color: white;
+    background-color: #4255ff;
+    border: none;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.values-list-area{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.values-list-area img{
+    width: 40%;
+}
+.perks-and-benefits{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+
